@@ -1,7 +1,7 @@
 FROM  supermy/docker-debian:7
 #FROM ubuntu:14.04
 
-RUN export http_proxy=http://10.77.45.191:8087
+#RUN export http_proxy=http://10.77.45.191:8087
 RUN apt-get update
 RUN apt-get install libtool make automake supervisor curl python2.7 python-pip -qy
 RUN apt-get install libyaml-0-2 -yq
