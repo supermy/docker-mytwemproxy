@@ -1,4 +1,4 @@
-FROM  supermy/debian:7
+FROM  supermy/docker-debian:7
 #FROM ubuntu:14.04
 
 RUN export http_proxy=http://10.77.45.191:8087
